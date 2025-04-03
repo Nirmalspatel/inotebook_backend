@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb://localhost:27017/inotebook"; // Use a specific database name like 'test'
+const mongoURI = "mongodb+srv://nirmalspatel3003:a5vYXCItyQZv0E5z@nirmal.jdcrs.mongodb.net/"; // Use a specific database name like 'test'
 
 const connectaTomongo = async () => {
     try {
